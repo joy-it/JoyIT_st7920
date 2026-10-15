@@ -5,7 +5,7 @@ Library to use the SBC-LCD128x64 with the Raspberry Pi
 You can install this library from PyPI.
 To install it for the current user on your Raspberry Pi, use the following command:
 ```
-pip install JoyIT_st7920
+pip install JoyIT-st7920
 ```
 
 ## Example

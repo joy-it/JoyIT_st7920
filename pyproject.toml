@@ -1,10 +1,13 @@
 [build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["ST7920"]
 
 [project]
 name = "JoyIT_st7920"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = ['gpiozero', 'spidev', 'Pillow']
 authors = [
   { name="Joy-IT", email="service@joy-it.net" },
